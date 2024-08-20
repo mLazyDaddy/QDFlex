@@ -1,0 +1,157 @@
+<QDFlexScrollView layout="flex:1,padding:14" attr="vertScroll:true,bgColor:green">
+  <UIView layout="minHeight:44,flexDirection:row,justifyContent:space-between,alignItems:center" attr="bgColor:#f0f200">
+    <UILabel name="" layout="width:20%" attr="fontSize:14,color:#333333,linesNum:0,text:UILabel"/>
+    <UILabel name="" layout="width:30%" attr="fontSize:14,color:#333333,linesNum:0,text:这是一个多行的label\,随着文字增加，自动调整高度。这是一个多行的label\,随着文字增加，自动调整高度。"/>
+    <UIView layout="width:50%,minHeight:44,flexDirection:column,marginTop:14,justifyContent:space-between,alignItems:center" attr="bgColor:#f0f200">
+      <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:UILabel1"/>
+      <UILabel name="" layout="maxWidth:200" attr="fontSize:14,color:#333333,linesNum:0,text:这是一个多行的label\,随着文字增加，自动调整高度。这是一个多行的label\,随着文字增加，自动调整高度。"/>
+      <UIView layout="height:1,marginTop:8,marginBottom:8" attr="bgColor:#f5f5f5"/>
+      <UIView layout="marginTop:14,minHeight:44,flexDirection:column,justifyContent:space-between,alignItems:center" attr="bgColor:#f0f200">
+        <UILabel name="" layout="width:40%" attr="fontSize:14,color:#333333,linesNum:0,text:UILabel2"/>
+        <UILabel name="" layout="maxWidth:200" attr="fontSize:14,color:#333333,linesNum:0,text:这是一个多行的label\,随着文字增加，自动调整高度。这是一个多行的label\,随着文字增加，自动调整高度。"/>
+        <UIView layout="height:1,marginTop:8,marginBottom:8" attr="bgColor:#f5f5f5"/>
+        <UIView layout="minHeight:44,flexDirection:column,justifyContent:space-between,alignItems:center" attr="bgColor:#f0f200">
+          <UILabel name="" layout="width:40%" attr="fontSize:14,color:#333333,linesNum:0,text:UILabel3"/>
+          <UILabel name="" layout="maxWidth:200" attr="fontSize:14,color:#333333,linesNum:0,text:这是一个多行的label\,随着文字增加，自动调整高度。这是一个多行的label\,随着文字增加，自动调整高度。"/>
+          <UIView layout="height:1,marginTop:8,marginBottom:8" attr="bgColor:#f5f5f5"/>
+          <UIView layout="minHeight:44,flexDirection:column,justifyContent:space-between,alignItems:center" attr="bgColor:#f0f200">
+            <UILabel name="" layout="width:40%" attr="fontSize:14,color:#333333,linesNum:0,text:UILabel4"/>
+            <UILabel name="" layout="maxWidth:200" attr="fontSize:14,color:#333333,linesNum:0,text:这是一个多行的label\,随着文字增加，自动调整高度。这是一个多行的label\,随着文字增加，自动调整高度。"/>
+            <UIView layout="height:1,marginTop:8,marginBottom:8" attr="bgColor:#f5f5f5"/>
+            <UIView layout="minHeight:44,flexDirection:column,justifyContent:space-between,alignItems:center" attr="bgColor:#f0f200">
+              <UILabel name="" layout="width:40%" attr="fontSize:14,color:#333333,linesNum:0,text:UILabel5"/>
+              <UILabel name="" layout="maxWidth:200" attr="fontSize:14,color:#333333,linesNum:0,text:这是一个多行的label\,随着文字增加，自动调整高度。这是一个多行的label\,随着文字增加，自动调整高度。"/>
+              <UIView layout="height:1,marginTop:8,marginBottom:8" attr="bgColor:#f5f5f5"/>
+              <UIView layout="minHeight:44,flexDirection:column,justifyContent:space-between,alignItems:center" attr="bgColor:#f0f200">
+                <UILabel name="" layout="width:40%" attr="fontSize:14,color:#333333,linesNum:0,text:UILabel6"/>
+                <UILabel name="" layout="maxWidth:200" attr="fontSize:14,color:#333333,linesNum:0,text:这是一个多行的label\,随着文字增加，自动调整高度。这是一个多行的label\,随着文字增加，自动调整高度。"/>
+                <UIView layout="height:1,marginTop:8,marginBottom:8" attr="bgColor:#f5f5f5"/>
+                <UIView elementId="view1" layout="minHeight:44,flexDirection:column,justifyContent:space-between,alignItems:center" attr="bgColor:#f0f200">
+                  <UILabel name="" layout="width:40%" attr="fontSize:14,color:#333333,linesNum:0,text:UILabel7"/>
+                  <UILabel name="" layout="maxWidth:200" attr="fontSize:14,color:#333333,linesNum:0,text:这是一个多行的label\,随着文字增加，自动调整高度。这是一个多行的label\,随着文字增加，自动调整高度。"/>
+                  <UIView layout="height:1,marginTop:8,marginBottom:8" attr="bgColor:#f5f5f5"/>
+                </UIView>
+              </UIView>
+            </UIView>
+          </UIView>
+        </UIView>
+      </UIView>
+    </UIView>
+  </UIView>
+
+  <UIView layout="height:1,marginTop:8,marginBottom:8" attr="bgColor:#f5f5f5"/>
+
+  <UIView onPress="onClick" relatedId="view1" layout="minHeight:84,flexDirection:row,justifyContent:space-between,alignItems:center" attr="">
+    <UILabel name="" layout="width:40%" attr="fontSize:14,color:#333333,linesNum:0,text:UIButton"/>
+    <UIButton name="" layout="maxWidth:200" attr="title:点击展示隐藏,color:red"/>
+  </UIView>
+  <UIView layout="minHeight:84,flexDirection:row,justifyContent:space-between,alignItems:center" attr="">
+    <UILabel name="" layout="width:40%" attr="fontSize:14,color:#333333,linesNum:0,text:UIButton"/>
+    <UIButton name="" layout="maxWidth:200" attr="title:Button,color:red"/>
+  </UIView>
+  <UIView layout="minHeight:84,flexDirection:row,justifyContent:space-between,alignItems:center" attr="">
+    <UILabel name="" layout="width:40%" attr="fontSize:14,color:#333333,linesNum:0,text:UIButton"/>
+    <UIButton name="" layout="maxWidth:200" attr="title:Button,color:red"/>
+  </UIView>
+  <UIView layout="minHeight:84,flexDirection:row,justifyContent:space-between,alignItems:center" attr="">
+    <UILabel name="" layout="width:40%" attr="fontSize:14,color:#333333,linesNum:0,text:UIButton"/>
+    <UIButton name="" layout="maxWidth:200" attr="title:Button,color:red"/>
+  </UIView>
+  <UIView layout="minHeight:84,flexDirection:row,justifyContent:space-between,alignItems:center" attr="">
+    <UILabel name="" layout="width:40%" attr="fontSize:14,color:#333333,linesNum:0,text:UIButton"/>
+    <UIButton name="" layout="maxWidth:200" attr="title:Button,color:red"/>
+  </UIView>
+  <UIView layout="minHeight:84,flexDirection:row,justifyContent:space-between,alignItems:center" attr="">
+    <UILabel name="" layout="width:40%" attr="fontSize:14,color:#333333,linesNum:0,text:UIButton"/>
+    <UIButton name="" layout="maxWidth:200" attr="title:Button,color:red"/>
+  </UIView><UIView layout="minHeight:84,flexDirection:row,justifyContent:space-between,alignItems:center" attr="">
+      <UILabel name="" layout="width:40%" attr="fontSize:14,color:#333333,linesNum:0,text:UIButton"/>
+      <UIButton name="" layout="maxWidth:200" attr="title:Button,color:red"/>
+    </UIView>
+  <UIView layout="minHeight:84,flexDirection:row,justifyContent:space-between,alignItems:center" attr="">
+    <UILabel name="" layout="width:40%" attr="fontSize:14,color:#333333,linesNum:0,text:UIButton"/>
+    <UIButton name="" layout="maxWidth:200" attr="title:Button,color:red"/>
+  </UIView><UIView layout="minHeight:84,flexDirection:row,justifyContent:space-between,alignItems:center" attr="">
+      <UILabel name="" layout="width:40%" attr="fontSize:14,color:#333333,linesNum:0,text:UIButton"/>
+      <UIButton name="" layout="maxWidth:200" attr="title:Button,color:red"/>
+    </UIView>
+  <UIView layout="minHeight:84,flexDirection:row,justifyContent:space-between,alignItems:center" attr="">
+    <UILabel name="" layout="width:40%" attr="fontSize:14,color:#333333,linesNum:0,text:UIButton"/>
+    <UIButton name="" layout="maxWidth:200" attr="title:Button,color:red"/>
+  </UIView>
+  <UIView layout="minHeight:84,flexDirection:row,justifyContent:space-between,alignItems:center" attr="">
+    <UILabel name="" layout="width:40%" attr="fontSize:14,color:#333333,linesNum:0,text:UIButton"/>
+    <UIButton name="" layout="maxWidth:200" attr="title:Button,color:red"/>
+  </UIView>
+  <UIView layout="minHeight:84,flexDirection:row,justifyContent:space-between,alignItems:center" attr="">
+    <UILabel name="" layout="width:40%" attr="fontSize:14,color:#333333,linesNum:0,text:UIButton"/>
+    <UIButton name="" layout="maxWidth:200" attr="title:Button,color:red"/>
+  </UIView>
+  <UIView layout="minHeight:84,flexDirection:row,justifyContent:space-between,alignItems:center" attr="">
+    <UILabel name="" layout="width:40%" attr="fontSize:14,color:#333333,linesNum:0,text:UIButton"/>
+    <UIButton name="" layout="maxWidth:200" attr="title:Button,color:red"/>
+  </UIView>
+  <UIView layout="minHeight:84,flexDirection:row,justifyContent:space-between,alignItems:center" attr="">
+    <UILabel name="" layout="width:40%" attr="fontSize:14,color:#333333,linesNum:0,text:UIButton"/>
+    <UIButton name="" layout="maxWidth:200" attr="title:Button,color:red"/>
+  </UIView>
+  <UIView layout="minHeight:84,flexDirection:row,justifyContent:space-between,alignItems:center" attr="">
+    <UILabel name="" layout="width:40%" attr="fontSize:14,color:#333333,linesNum:0,text:UIButton"/>
+    <UIButton name="" layout="maxWidth:200" attr="title:Button,color:red"/>
+  </UIView><UIView layout="minHeight:84,flexDirection:row,justifyContent:space-between,alignItems:center" attr="">
+      <UILabel name="" layout="width:40%" attr="fontSize:14,color:#333333,linesNum:0,text:UIButton"/>
+      <UIButton name="" layout="maxWidth:200" attr="title:Button,color:red"/>
+    </UIView>
+  <UIView layout="minHeight:84,flexDirection:row,justifyContent:space-between,alignItems:center" attr="">
+    <UILabel name="" layout="width:40%" attr="fontSize:14,color:#333333,linesNum:0,text:UIButton"/>
+    <UIButton name="" layout="maxWidth:200" attr="title:Button,color:red"/>
+  </UIView>
+  <UIView onPress="resignUITextField" relatedId="textField1" layout="minHeight:84,flexDirection:row,justifyContent:space-between,alignItems:center" attr="">
+      <UILabel name="" layout="width:40%" attr="fontSize:14,color:#333333,linesNum:0,text:UIButton"/>
+      <UIButton name="" layout="maxWidth:200" attr="title:释放焦点,color:red"/>
+    </UIView>
+  
+  <UIView layout="minHeight:44,flexDirection:row,justifyContent:space-between,alignItems:center" attr="">
+    <UILabel name="" layout="width:40%" attr="fontSize:14,color:#333333,linesNum:0,text:UITextField"/>
+    <UITextField elementId="textField1" name="" layout="flex:1,height:40" attr="placeholder:这是一个UITextField，可以输入文字,borderColor:#f5f5f5,borderWidth:1,borderRadius:4"/>
+  </UIView>
+
+  <UIView layout="height:1,marginTop:8,marginBottom:8" attr="bgColor:#f5f5f5"/>
+
+  <UIView layout="minHeight:44,flexDirection:row,justifyContent:space-between,alignItems:center" attr="">
+    <UILabel name="" layout="width:40%" attr="fontSize:14,color:#333333,linesNum:0,text:UIImageView"/>
+    <UIImageView name="" layout="maxWidth:200" attr="source:addnewtype.png"/>
+  </UIView>
+
+  <UIView layout="height:1,marginTop:8,marginBottom:8" attr="bgColor:#f5f5f5"/>
+
+  <UIView layout="height:1,marginTop:8,marginBottom:8" attr="bgColor:#f5f5f5"/>
+
+  <UIView layout="minHeight:44,flexDirection:row,justifyContent:space-between,alignItems:center" attr="">
+    <UILabel name="" layout="width:40%" attr="fontSize:14,color:#333333,linesNum:0,text:UIActivityIndicatorView"/>
+  </UIView>
+
+  <UIView layout="height:1,marginTop:8,marginBottom:8" attr="bgColor:#f5f5f5"/>
+
+  <UIView layout="minHeight:44,flexDirection:row,justifyContent:space-between,alignItems:center" attr="">
+    <UILabel name="" layout="width:40%" attr="fontSize:14,color:#333333,linesNum:0,text:UIDatePicker"/>
+  </UIView>
+
+  <UIView layout="height:1,marginTop:8,marginBottom:8" attr="bgColor:#f5f5f5"/>
+
+  <UIView layout="minHeight:44,flexDirection:row,justifyContent:space-between,alignItems:center" attr="">
+    <UILabel name="" layout="width:40%" attr="fontSize:14,color:#333333,linesNum:0,text:UIPageControl"/>
+  </UIView>
+
+  <UIView layout="height:1,marginTop:8,marginBottom:8" attr="bgColor:#f5f5f5"/>
+
+  <UIView layout="minHeight:44,flexDirection:row,justifyContent:space-between,alignItems:center" attr="">
+    <UILabel name="" layout="width:40%" attr="fontSize:14,color:#333333,linesNum:0,text:UIPickerView"/>
+  </UIView>
+
+  <UIView layout="height:1,marginTop:8,marginBottom:8" attr="bgColor:#f5f5f5"/>
+
+  <UIView layout="minHeight:44,flexDirection:row,justifyContent:space-between,alignItems:center" attr="">
+    <UILabel name="" layout="width:40%" attr="fontSize:14,color:#333333,linesNum:0,text:UIProgressView"/>
+  </UIView> 
+</QDFlexScrollView>
